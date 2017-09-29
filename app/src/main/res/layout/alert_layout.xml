@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/streamOOps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Stream: Oops"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/msg_content_textV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/warning"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/alert_ok_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="Ok"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/view"--><!--android:layout_width="300dp"--><!--android:layout_height="wrap_content"--><!--android:layout_centerInParent="true">-->
+
+    <!--<TextView--><!--android:id="@+id/msg_content_textV"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:gravity="center|start"--><!--android:text="@string/warning" />-->
+
+    <!--<TextView--><!--android:id="@+id/alert_ok_btn"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentRight="true"--><!--android:layout_below="@+id/msg_content_textV"--><!--android:layout_gravity="right"--><!--android:gravity="right"--><!--android:padding="20dp"--><!--android:text="Ok"--><!--android:textColor="@color/colorPrimaryDark" />--><!--</RelativeLayout>-->

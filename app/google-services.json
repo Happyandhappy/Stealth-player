@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "605969602419",
+    "firebase_url": "https://stealth-player-5b481.firebaseio.com",
+    "project_id": "stealth-player-5b481",
+    "storage_bucket": "stealth-player-5b481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605969602419:android:7446867ccdb2cdc9",
+        "android_client_info": {
+          "package_name": "com.youtubebing.stealthplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605969602419-4hh03llfq8on6rf233c8hjl5os5lm7cc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.youtubebing.stealthplayer",
+            "certificate_hash": "dbba30491b29979fba27c6b726688450168f6e1d"
+          }
+        },
+        {
+          "client_id": "605969602419-01e0emp97o05b5kmi11l694hiutk5llb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHl7KIIXHO9wsQEHZrizmuRC9xzYcFZWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605969602419-01e0emp97o05b5kmi11l694hiutk5llb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
